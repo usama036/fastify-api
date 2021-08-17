@@ -1,0 +1,24 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.20.2",
+    "fastify-swagger": "^4.8.4",
+    "sequelize-fastify": "^1.0.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "fastify-mysql": "^2.1.0",
+    "fastify-plugin": "^3.0.0",
+    "sequelize": "^6.6.5"
+  }
+}
